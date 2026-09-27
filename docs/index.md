@@ -31,25 +31,25 @@ Each section of this site contains:
 
 Before starting the classes, is really important to have a cluster running on your machine:
 
-- **Getting Started** — Initial setup and learning environment
+- [**Getting Started**](00-getting-started/lab-notes.md) — Initial setup and learning environment
 
-If you want to see how works a pod, deployment, and yaml basics, do:
+<!-- If you want to see how works a pod, deployment, and yaml basics, do:
 
-- **Kubernetes Fundamentals** — Pods, Deployments, and YAML basics
+- [**Kubernetes Fundamentals**](01-kubernetes-fundamentals/lab-guide.md) — Pods, Deployments, and YAML basics -->
 
 Topics of the study group:
 
-- **Introducing the Cerified Kubernetes Administrator** - What contains the exam, architecture of kubernetes
-- **Kubernetes Cluster** - Cluster components
-- **Identity and Access Management** - Access control, users, groups, service accounts
-- **Deploying Applications in Kubernetes** - Scheduling applications and configuring pods
-- **Running applications in Kubernetes** - Orchestrating applications
-- **Communication in a Kubernetes Cluster** - DNS, Ingress and ingress controllers, networking
-- **Storing in Kubernetes** - Persistent volumes, PVC, Storage class
-- **Troubleshooting Kubernetes** - Understanding logs, component failures
-- **Taking the test** - We can do it, keep working, fail, try again, and then succeed
-<!-- - **GitOps** — FluxCD installation and repository automation -->
-<!-- - **Security** — PodSecurityPolicies, NetworkPolicies, and hardening techniques -->
+- [**Introducing the Certified Kubernetes Administrator**](cka/01-introducing-cka/index.md) - What contains the exam, architecture of kubernetes
+- [**Kubernetes Cluster**](cka/02-kubernetes-cluster/index.md) - Cluster components
+- [**Identity and Access Management**](cka/03-identity-access-management/index.md) - Access control, users, groups, service accounts
+- [**Deploying Applications in Kubernetes**](cka/04-deploying-applications/index.md) - Scheduling applications and configuring pods
+- [**Running applications in Kubernetes**](cka/05-running-applications/index.md) - Orchestrating applications
+- [**Communication in a Kubernetes Cluster**](cka/06-communication/index.md) - DNS, Ingress and ingress controllers, networking
+- [**Storing in Kubernetes**](cka/07-storage/index.md) - Persistent volumes, PVC, Storage class
+- [**Troubleshooting Kubernetes**](cka/08-troubleshooting/index.md) - Understanding logs, component failures
+- [**Taking the test**](cka/09-taking-the-test/index.md) - We can do it, keep working, fail, try again, and then succeed
+<!-- - [**GitOps**](02-gitops/lab-guide.md) — FluxCD installation and repository automation -->
+<!-- - [**Security**](03-security/lab-guide.md) — PodSecurityPolicies, NetworkPolicies, and hardening techniques -->
 
 
 - **Weekly Reflections** — Documentate personal takeaways, challenges, and growth areas. It is really important that you documentate everything that you are learning, it does not matter if looks simple, if you study something and write your own words about it, is more easy that knowledge keeps in your brain. Explain and share with the community what did you do, how did you do that, what are you learning, you do not know when you can help someone to find its own way.

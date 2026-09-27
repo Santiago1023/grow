@@ -68,5 +68,10 @@ kubectl delete pod nginx
 
 ## 🎯 Next Step
 
+<!-- Original template (Kubernetes Fundamentals is not published for now):
 When ready, move on to your first official lab:  
 👉 [Kubernetes Fundamentals – Deploying a Pod and Deployment](../01-kubernetes-fundamentals/lab-guide.md)
+-->
+
+When ready, move on to the first topic of the CKA study group:  
+👉 [1. Introducing the Certified Kubernetes Administrator](../cka/01-introducing-cka/index.md)

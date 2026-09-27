@@ -11,7 +11,7 @@ This is your personal portfolio to document everything you learn through Kuberne
 ## 🚀 Your First Tasks
 
 1. ✅ Fork this repository to your own GitHub account.
-2. ✅ Open [00-getting-started/lab-notes.md](00-getting-started/lab-notes.md) and follow the instructions.
+2. ✅ Open [docs/00-getting-started/lab-notes.md](docs/00-getting-started/lab-notes.md) and follow the instructions. <!-- Original template: Open [00-getting-started/lab-notes.md](00-getting-started/lab-notes.md) and follow the instructions. -->
 3. ✅ Complete the first lab in `01-kubernetes-fundamentals/`.
 4. ✅ Create a new reflection file in `99-reflections/week1.md`.
 5. ✅ Commit and push your changes to GitHub.
@@ -20,6 +20,8 @@ This is your personal portfolio to document everything you learn through Kuberne
 ---
 
 ## 📁 Suggested Folder Structure
+
+> **Note (this fork):** all the lab folders below were moved inside `docs/` so MkDocs can publish them (e.g. `docs/00-getting-started/`). The CKA study group pages live in `docs/cka/`.
 
 ```
 student-notebook/

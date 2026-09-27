@@ -2,27 +2,74 @@ site_name: My Kubernetes Portfolio
 site_url: https://santiago1023.github.io/grow/
 theme:
   name: material
+  features:
+    - navigation.sections   # top-level nav groups shown as headers in the sidebar
+    # - navigation.indexes    # a topic's index.md opens when clicking its title (when it has sub-pages)
+    - navigation.footer     # "Previous / Next" links at the bottom of each page
+    - content.action.edit   # "Edit this page" button (uses repo_url + edit_uri)
   palette:
     primary: blue
     accent: cyan
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Lab Notes: 00-getting-started/lab-notes.md
-#   - Kubernetes Fundamentals:
-#       - NGINX Pod Lab: 01-kubernetes-fundamentals/lab-guide.md
-#       - YAML: 01-kubernetes-fundamentals/nginx-pod.yaml
-#   - GitOps:
-#       - FluxCD Install: 02-gitops/fluxcd-installation.md
-#       - Lab Guide: 02-gitops/lab-guide.md
-#   - Security:
-#       - Security Lab Guide: 03-security/lab-guide.md
-#       - Example PSP: 03-security/podsecuritypolicy-example.yaml
-  - Reflections:
-      - Week 1: 99-reflections/week1.md
-      - Week 2: 99-reflections/week2.md
-      - Week 3: 99-reflections/week3.md
+
+  # ── Current version: CKA study group ──────────────────────────
+  - Before the classes:
+      - Getting Started: 00-getting-started/lab-notes.md
+    #   - Kubernetes Fundamentals: 01-kubernetes-fundamentals/lab-guide.md
+  - CKA Study Group:
+      - 1. Introducing the CKA: cka/01-introducing-cka/index.md
+      - 2. Kubernetes Cluster: cka/02-kubernetes-cluster/index.md
+      - 3. Identity and Access Management: cka/03-identity-access-management/index.md
+      - 4. Deploying Applications: cka/04-deploying-applications/index.md
+      - 5. Running Applications: cka/05-running-applications/index.md
+      - 6. Communication in a Cluster: cka/06-communication/index.md
+      - 7. Storage: cka/07-storage/index.md
+      - 8. Troubleshooting: cka/08-troubleshooting/index.md
+      - 9. Taking the Test: cka/09-taking-the-test/index.md
+  # When a topic needs more pages, turn it into a sub-group, e.g.:
+  #   - 2. Kubernetes Cluster:
+  #       - cka/02-kubernetes-cluster/index.md
+  #       - Lab: cka/02-kubernetes-cluster/lab.md
+
+  # ── Original KubeSkills GROW template (kept for future features) ──
+  # The files live in docs/; uncomment a block to publish it again.
+  # - Getting Started:
+  #     - Lab Notes: 00-getting-started/lab-notes.md
+  # - Kubernetes Fundamentals:
+  #     - NGINX Pod Lab: 01-kubernetes-fundamentals/lab-guide.md
+  #     - YAML: 01-kubernetes-fundamentals/nginx-pod.yaml
+  # - GitOps:
+  #     - FluxCD Install: 02-gitops/fluxcd-installation.md   # file does not exist in the template
+  #     - Lab Guide: 02-gitops/lab-guide.md
+  # - Security:
+  #     - Security Lab Guide: 03-security/lab-guide.md
+  #     - Example PSP: 03-security/podsecuritypolicy-example.yaml   # file does not exist in the template
+  # - Services and Ingress:
+  #     - Lab Guide: 04-services-ingress/lab-guide.md
+  # - Stateful Deploy:
+  #     - Lab Guide: 05-stateful-deploy/lab-guide.md
+  # - Shell DX (Zsh):
+  #     - Lab Guide: 06-playing-your-computer-as-an-instrument/lab-guide.md
+  # - Reflections:
+  #     - Week 1: 99-reflections/week1.md
+  #     - Week 2: 99-reflections/week2.md
+  #     - Week 3: 99-reflections/week3.md
+  #     - Week 4: 99-reflections/week4.md
+  #     - Week 5: 99-reflections/week5.md
+  #     - Week 6: 99-reflections/week6.md
+
+# Template folders kept in the repo but NOT published for now.
+# Remove a line here (and uncomment it in the nav) to publish that folder again.
+exclude_docs: |
+  01-kubernetes-fundamentals/
+  02-gitops/
+  03-security/
+  04-services-ingress/
+  05-stateful-deploy/
+  06-playing-your-computer-as-an-instrument/
+  99-reflections/
 
 markdown_extensions:
   - toc:
@@ -32,5 +79,5 @@ markdown_extensions:
   - footnotes
   - tables
 
-repo_url: https://github.com/kubeskills/student-notebook
+repo_url: https://github.com/kubeskills/student-notebook   # original template
 edit_uri: edit/main/docs/
