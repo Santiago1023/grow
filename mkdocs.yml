@@ -40,7 +40,8 @@ nav:
 
   # -- Software Networking course --
   - Software Networking:
-      - 1. EBPF Introduction: software-networking/ebpf/index.md
+      - software-networking/index.md  # overview of software networking
+      - 1. eBPF: software-networking/ebpf/index.md
       - 2. Laboratories: software-networking/labs/index.md
 
 
@@ -93,6 +94,8 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.superfences    # code blocks inside lists/admonitions, title/linenums/hl_lines
+  - pymdownx.tasklist:      # - [ ] / - [x] render as checkboxes
+      custom_checkbox: true
   - footnotes
   - tables
 
