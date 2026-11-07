@@ -20,15 +20,15 @@ nav:
       - cka/index.md          # overview page: opens when clicking "CKA Study Group"
       - Getting Started: 00-getting-started/lab-notes.md
     #   - Kubernetes Fundamentals: 01-kubernetes-fundamentals/lab-guide.md
-      - 1. Introducing the CKA: cka/01-introducing-cka/index.md
-      - 2. Kubernetes Cluster: cka/02-kubernetes-cluster/index.md
-      - 3. Identity and Access Management: cka/03-identity-access-management/index.md
-      - 4. Deploying Applications: cka/04-deploying-applications/index.md
-      - 5. Running Applications: cka/05-running-applications/index.md
-      - 6. Communication in a Cluster: cka/06-communication/index.md
-      - 7. Storage: cka/07-storage/index.md
-      - 8. Troubleshooting: cka/08-troubleshooting/index.md
-      - 9. Taking the Test: cka/09-taking-the-test/index.md
+      - Introducing the CKA: cka/01-introducing-cka/index.md
+      - Kubernetes Cluster: cka/02-kubernetes-cluster/index.md
+      - Identity and Access Management: cka/03-identity-access-management/index.md
+      - Deploying Applications: cka/04-deploying-applications/index.md
+      - Running Applications: cka/05-running-applications/index.md
+      - Communication in a Cluster: cka/06-communication/index.md
+      - Storage: cka/07-storage/index.md
+      - Troubleshooting: cka/08-troubleshooting/index.md
+      - Taking the Test: cka/09-taking-the-test/index.md
   # When a topic needs more pages, turn it into a sub-group, e.g.:
   #   - 2. Kubernetes Cluster:
   #       - cka/02-kubernetes-cluster/index.md
@@ -36,13 +36,13 @@ nav:
 
   # -- GPU programming course --
   - GPU Programming:
-      - 1. GPU Programming Introduction: gpu-programming/01-introducing-gpu/index.md
+      - GPU Programming Introduction: gpu-programming/01-introducing-gpu/index.md
 
   # -- Software Networking course --
   - Software Networking:
       - software-networking/index.md  # overview of software networking
-      - 1. eBPF: software-networking/ebpf/index.md
-      - 2. Laboratories: software-networking/labs/index.md
+      - eBPF: software-networking/ebpf/index.md
+      - Laboratories: software-networking/labs/index.md
 
 
 

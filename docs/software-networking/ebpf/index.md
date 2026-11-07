@@ -68,4 +68,4 @@ Coming soon
 ## Resources
 
 - [eBPF documentation](https://docs.ebpf.io/)
-- [example code of Learning eBPF book of Liz Rice](https://github.com/lizrice/learning-ebpf)
+- [examples code of Learning eBPF book of Liz Rice](https://github.com/lizrice/learning-ebpf)

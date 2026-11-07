@@ -16,7 +16,7 @@ Want to start your own? Fork the [**GROW Template**](https://github.com/kubeskil
 
 - [**☸️ CKA Study Group**](cka/index.md) — Preparing the Certified Kubernetes Administrator exam with the KubeSkills GROW program and the Cloud Native community.
 - [**⚡ GPU Programming**](gpu-programming/01-introducing-gpu/index.md) — Parallel computing and CUDA, and how GPUs and Kubernetes can work together.
-- [**🌐 Software Networking**](software-networking/ebpf/index.md) — eBPF and programmable networking, with hands-on labs.
+- [**🌐 Software Networking**](software-networking/index.md) — eBPF and programmable networking, with hands-on labs.
 
 ---
 
