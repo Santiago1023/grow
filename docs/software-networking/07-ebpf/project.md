@@ -1,5 +1,7 @@
 # eBPF and io_uring Project
 
+---
+
 In this section I document, step by step, the complete process of taking on a project (proposed by my professors in the Software Networking course at Politecnico di Torino) without any previous knowledge of the technology, while I learn about eBPF.
 
 
@@ -68,4 +70,4 @@ Coming soon
 ## Resources
 
 - [eBPF documentation](https://docs.ebpf.io/)
-- [examples code of Learning eBPF book of Liz Rice](https://github.com/lizrice/learning-ebpf)
+- [Code examples from Liz Rice's Learning eBPF book](https://github.com/lizrice/learning-ebpf)

@@ -40,13 +40,15 @@ nav:
 
   # -- Software Networking course --
   - Software Networking:
-      - software-networking/index.md  # overview of software networking
-      - eBPF: software-networking/ebpf/index.md
+      - software-networking/index.md
+      - Architecture of Network Devices: software-networking/02-architecture-network-devices/index.md
+      - Linux Network Stack: software-networking/03-linux-network-stack/index.md
+      - Software Packet Filtering: software-networking/04-software-packet-filtering/index.md
+      - Pcap Programming: software-networking/05-pcap-programming/index.md
+      - eBPF:
+          - software-networking/07-ebpf/index.md
+          - Project: software-networking/07-ebpf/project.md
       - Laboratories: software-networking/labs/index.md
-
-
-
-
 
   # ── Original KubeSkills GROW template (kept for future features) ──
   # The files live in docs/; uncomment a block to publish it again.
